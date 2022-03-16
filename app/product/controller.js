@@ -18,8 +18,7 @@ const getProductById = async (req, res) => {
   try {
     const product = await Product.findAll({
       where: {
-        sql: "Select * from product where id = ?",
-        values: [req.params.id],
+        id: req.params.id,
       },
     });
     res.send(product);
