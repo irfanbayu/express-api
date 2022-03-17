@@ -3,7 +3,7 @@ const router = require("./app/product/routes");
 const productRouter = require("./app/product/routes");
 const logger = require("morgan");
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 5000; // * setting port
 
 app.use(express.json());
 app.use(logger("dev"));
