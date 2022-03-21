@@ -1,0 +1,129 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2022-03-21T12:08:28.214Z",
+  "__export_source": "insomnia.desktop.app:v2022.2.0",
+  "resources": [
+    {
+      "_id": "req_896493225e0b4600a71814842e51a5b4",
+      "parentId": "wrk_7d3e9833faef464592eca92a0bc52d75",
+      "modified": 1647864452765,
+      "created": 1647424105725,
+      "url": "http://localhost:3000/api/product/2",
+      "name": "test-api-express",
+      "description": "",
+      "method": "GET",
+      "body": {
+        "mimeType": "multipart/form-data",
+        "params": [
+          {
+            "id": "pair_5320305254f8400ba4da2081e617dac4",
+            "name": "name",
+            "value": "Xiaomi Redmi Note 11",
+            "description": ""
+          },
+          {
+            "id": "pair_8115a0cf30aa406b9bf2e5844f293a31",
+            "name": "price",
+            "value": "10000000",
+            "description": ""
+          },
+          {
+            "id": "pair_6c41ddd4562c41a894cd49931bc18641",
+            "name": "stock",
+            "value": "27",
+            "description": ""
+          },
+          {
+            "id": "pair_6ce67b6a9ef94d06a0d81b0cc7fe3da8",
+            "name": "status",
+            "value": "true",
+            "description": ""
+          },
+          {
+            "id": "pair_aeed18b3ed134dfcbf7f6f92b8bfad52",
+            "name": "image",
+            "value": "",
+            "description": "",
+            "type": "file",
+            "fileName": "C:\\Users\\Bayu\\Downloads\\guillaume-meurice-2-MvCdgg1tQ-unsplash.jpg"
+          },
+          {
+            "id": "pair_6ab8e11927c04ba8b427e0e3bfac182b",
+            "name": "users_id",
+            "value": "1",
+            "description": ""
+          }
+        ]
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "multipart/form-data",
+          "id": "pair_cd191f808e93417cab6dae1f5156d654"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1647424105725,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "wrk_7d3e9833faef464592eca92a0bc52d75",
+      "parentId": null,
+      "modified": 1647103449727,
+      "created": 1647103449727,
+      "name": "New Document",
+      "description": "",
+      "scope": "design",
+      "_type": "workspace"
+    },
+    {
+      "_id": "env_a0f0548672c09fa4de71303eac5467eded168761",
+      "parentId": "wrk_7d3e9833faef464592eca92a0bc52d75",
+      "modified": 1647103449759,
+      "created": 1647103449759,
+      "name": "Base Environment",
+      "data": {},
+      "dataPropertyOrder": null,
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1647103449759,
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_a0f0548672c09fa4de71303eac5467eded168761",
+      "parentId": "wrk_7d3e9833faef464592eca92a0bc52d75",
+      "modified": 1647103449768,
+      "created": 1647103449768,
+      "name": "Default Jar",
+      "cookies": [],
+      "_type": "cookie_jar"
+    },
+    {
+      "_id": "spc_47aad5c828e54f148a812aedca69818f",
+      "parentId": "wrk_7d3e9833faef464592eca92a0bc52d75",
+      "modified": 1647864309066,
+      "created": 1647103449749,
+      "fileName": "New Document",
+      "contents": "",
+      "contentType": "yaml",
+      "_type": "api_spec"
+    },
+    {
+      "_id": "uts_49d4f2c229c84669b18b2c2e9c040e1b",
+      "parentId": "wrk_7d3e9833faef464592eca92a0bc52d75",
+      "modified": 1647103449779,
+      "created": 1647103449779,
+      "name": "Example Test Suite",
+      "_type": "unit_test_suite"
+    }
+  ]
+}
